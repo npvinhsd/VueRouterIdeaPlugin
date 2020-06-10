@@ -32,7 +32,7 @@ public class RouteIndexExtension extends FileBasedIndexExtension<String, Void> {
 
             Map<String, Void> map = new THashMap<>();
 
-            for (String s : VueRouteProvider.getRoutesAsNames(psiFile)) {
+            for (String s : RoutingUtils.getRoutesAsNames(psiFile)) {
                 map.put(s, null);
             }
 

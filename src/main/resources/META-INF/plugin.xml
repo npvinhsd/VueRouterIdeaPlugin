@@ -1,8 +1,8 @@
 <idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
-    <version>0.1</version>
-    <vendor email="npvinh91@gmail.com" url="http://http://kapien.xyz/">Kapien</vendor>
+    <version>0.3</version>
+    <vendor email="npvinh91@gmail.com" url="https://github.com/npvinhsd/VueRouterIdeaPlugin">Kapien</vendor>
 
     <description><![CDATA[
     <h1>Vue Router AutoCompletion</h1><br>
@@ -15,12 +15,12 @@
     <p>Plugin will index all name property of RouteConfig Object in file contain "route" and have prefix ".ts".</p>
     <p>Plugin will suggest in object that has name property.</p>
     ]]></description>
+
     <change-notes><![CDATA[
     <ul>
-        <li>Release first version.</li>
+        <li>Add GoTo Handler for VueRouter.</li>
     </ul>
-    <br/>
-    <a href="https://github.com/Haehnchen/idea-php-laravel-plugin/blob/master/CHANGELOG.md">see full changelog</a> | <a href="https://www.paypal.me/DanielEspendiller">Donate</a>
+    <p></p>
     ]]>
     </change-notes>
 
@@ -32,8 +32,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-<!--        <gotoDeclarationHandler implementation="VueRouterHandler"/>-->
         <completion.contributor language="TypeScript" implementationClass="VueRouteCompletionContributor"/>
         <fileBasedIndex implementation="RouteIndexExtension"/>
+        <gotoDeclarationHandler implementation="VueRouterGoToHandler"/>
     </extensions>
 </idea-plugin>

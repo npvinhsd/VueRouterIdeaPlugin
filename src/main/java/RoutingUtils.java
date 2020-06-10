@@ -23,10 +23,19 @@ import java.util.Set;
 public class RoutingUtils {
     public static Collection<String> getRoutesAsNames(Project project) {
         Collection<String> keys = FileBasedIndex.getInstance().getAllKeys(RouteIndexExtension.KEY, project);
+        Set<String> set = new HashSet<>();
 
-        RouteLogger.LOG.warn(keys.toString());
-
-        return keys;
+        for (String key : keys) {
+            Collection fileCollection = FileBasedIndex.getInstance().getContainingFiles(
+                    RouteIndexExtension.KEY,
+                    key,
+                    GlobalSearchScope.allScope(project)
+            );
+            if (fileCollection.size() > 0) {
+                set.add(key);
+            }
+        }
+        return set;
     }
 
     public interface RouteAsNameVisitor {

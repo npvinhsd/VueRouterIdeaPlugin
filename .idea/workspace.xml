@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7217c2e2-7b91-4971-b882-5127d2c02f21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RouteIndexExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RouteLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VueRouteCompletionContributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VueRouteProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VueRouterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vue-router-helper" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vue-router-helper" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vue-router-helper" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="vue-router-helper" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1d2i6PrkpSMCheqHxZgHmXLW52v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.vue-router-helper [publishPlugin]">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Xms512m -Xmx6g" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vue-router-helper [publishPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vue-router-helper [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" show_console_on_std_out="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Xms512m -Xmx6g" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="vue-router-helper [verifyPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="verifyPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Plugin" />
+      <item itemvalue="Gradle.vue-router-helper [runIde]" />
+      <item itemvalue="Gradle.vue-router-helper [verifyPlugin]" />
+      <item itemvalue="Gradle.vue-router-helper [publishPlugin]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.vue-router-helper [publishPlugin]" />
+        <item itemvalue="Gradle.vue-router-helper [verifyPlugin]" />
+        <item itemvalue="Gradle.vue-router-helper [runIde]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7217c2e2-7b91-4971-b882-5127d2c02f21" name="Default Changelist" comment="" />
+      <created>1591629412955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591629412955</updated>
+      <workItem from="1591629417435" duration="1140000" />
+      <workItem from="1591630920968" duration="1209000" />
+      <workItem from="1591632403357" duration="1403000" />
+      <workItem from="1591633833911" duration="13117000" />
+      <workItem from="1591720865196" duration="3526000" />
+      <workItem from="1591725621423" duration="230000" />
+      <workItem from="1591725901675" duration="2310000" />
+      <workItem from="1591728349112" duration="1185000" />
+      <workItem from="1591729577684" duration="666000" />
+      <workItem from="1591730247505" duration="23896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="611" y="194" key="#Groovy" timestamp="1591632493272">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="611" y="194" key="#Groovy/0.23.1680.1027@0.23.1680.1027" timestamp="1591632493272" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591730067430">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591730067430" />
+    <state x="539" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591730380224">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="539" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591730380224" />
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1591736314783">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591678676297" />
+    <state x="653" y="250" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591736314783" />
+    <state x="526" y="136" key="#vue-router-helper_[runIde]" timestamp="1591725798805">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="526" y="136" key="#vue-router-helper_[runIde]/0.23.1680.1027@0.23.1680.1027" timestamp="1591725798805" />
+    <state width="1638" height="230" key="GridCell.Tab.0.bottom" timestamp="1591773682925">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="230" key="GridCell.Tab.0.bottom/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591773682925" />
+    <state width="1638" height="586" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1591740493728" />
+    <state width="1638" height="230" key="GridCell.Tab.0.center" timestamp="1591773682924">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="230" key="GridCell.Tab.0.center/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591773682924" />
+    <state width="1638" height="586" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1591740493727" />
+    <state width="1638" height="230" key="GridCell.Tab.0.left" timestamp="1591773682924">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="230" key="GridCell.Tab.0.left/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591773682924" />
+    <state width="1638" height="586" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1591740493726" />
+    <state width="1638" height="230" key="GridCell.Tab.0.right" timestamp="1591773682925">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="230" key="GridCell.Tab.0.right/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591773682925" />
+    <state width="1638" height="586" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1591740493801" />
+    <state x="576" y="269" key="NewPhpClassDialog" timestamp="1591633977219">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="576" y="269" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591633977219" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1591730563676">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1591730563676" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1591774217977">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591774217977" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1591740005087" />
+    <state x="100" y="123" width="1480" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591722510132">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="123" width="1480" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591722510132" />
+    <state x="463" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591740073746">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="463" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591740073746" />
+    <state x="597" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591732565818">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="597" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591732565818" />
+    <state x="541" y="291" width="598" height="490" key="find.popup" timestamp="1591766354100">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="541" y="291" width="598" height="490" key="find.popup/-1920.-403.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1591766354100" />
+    <state x="541" y="291" width="598" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1591739930691" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1591739163555">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1591739163555" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="com.intellij.lang.javascript.psi.ecma6.impl.TypeScriptSingleTypeImpl" fieldName="myElementType" />
+        <PinnedItemInfo typeName="com.intellij.lang.javascript.types.JSPropertyElementType" fieldName="myLanguage" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

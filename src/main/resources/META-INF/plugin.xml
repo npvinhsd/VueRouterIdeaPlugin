@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>me.kapien.vue-router-helper</id>
+    <name>Vue Router AutoCompletion</name>
+    <version>0.1</version>
+    <vendor email="npvinh91@gmail.com" url="http://http://kapien.xyz/">Kapien</vendor>
+
+    <description><![CDATA[
+    <h1>Vue Router AutoCompletion</h1><br>
+    <br>
+    <h2>Feature</h2>
+    <ul>
+    <li>Autocomplete for VueRouter Typescript</li>
+    </ul>
+    <h2>Guide</h2>
+    <p>Plugin will index all name property of RouteConfig Object in file contain "route" and have prefix ".ts".</p>
+    <p>Plugin will suggest in object that has name property.</p>
+    ]]></description>
+    <change-notes><![CDATA[
+    <ul>
+        <li>Release first version.</li>
+    </ul>
+    <br/>
+    <a href="https://github.com/Haehnchen/idea-php-laravel-plugin/blob/master/CHANGELOG.md">see full changelog</a> | <a href="https://www.paypal.me/DanielEspendiller">Donate</a>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <category>JavaScript Frameworks and Tools</category>
+    <depends>JavaScript</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+<!--        <gotoDeclarationHandler implementation="VueRouterHandler"/>-->
+        <completion.contributor language="TypeScript" implementationClass="VueRouteCompletionContributor"/>
+        <fileBasedIndex implementation="RouteIndexExtension"/>
+    </extensions>
+</idea-plugin>

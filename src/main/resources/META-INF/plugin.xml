@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
     <version>0.1</version>

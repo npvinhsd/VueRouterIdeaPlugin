@@ -1,8 +1,5 @@
 import com.intellij.lang.javascript.TypeScriptFileType;
-import com.intellij.lang.javascript.psi.JSArrayLiteralExpression;
-import com.intellij.lang.javascript.psi.JSLiteralExpression;
-import com.intellij.lang.javascript.psi.JSObjectLiteralExpression;
-import com.intellij.lang.javascript.psi.JSProperty;
+import com.intellij.lang.javascript.psi.*;
 import com.intellij.lang.javascript.psi.ecma6.TypeScriptSingleType;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
@@ -26,7 +23,7 @@ public class RoutingUtils {
         Set<String> set = new HashSet<>();
 
         for (String key : keys) {
-            Collection fileCollection = FileBasedIndex.getInstance().getContainingFiles(
+            Collection<VirtualFile> fileCollection = FileBasedIndex.getInstance().getContainingFiles(
                     RouteIndexExtension.KEY,
                     key,
                     GlobalSearchScope.allScope(project)
@@ -40,6 +37,48 @@ public class RoutingUtils {
 
     public interface RouteAsNameVisitor {
         void visit(@NotNull PsiElement element, @NotNull String name);
+    }
+
+    public static String getParentName(PsiElement element) {
+
+        PsiElement childrenPropertyParent = PsiTreeUtil.findFirstParent(
+                element,
+                true,
+                element1 -> element1 instanceof JSProperty &&
+                        ((JSProperty) element1).getName().equals("children")
+        );
+
+        if (childrenPropertyParent == null) {
+            return "";
+        }
+
+        PsiElement nameElement;
+
+        for (nameElement = childrenPropertyParent.getPrevSibling(); nameElement != null; nameElement = nameElement.getPrevSibling()) {
+            if (nameElement instanceof JSProperty && ((JSProperty) nameElement).getName().equals("name")) {
+                break;
+            }
+        }
+        if (nameElement == null) {
+            for (nameElement = childrenPropertyParent.getNextSibling(); nameElement != null; nameElement = nameElement.getNextSibling()) {
+                if (nameElement instanceof JSProperty && ((JSProperty) nameElement).getName().equals("name")) {
+                    break;
+                }
+            }
+        }
+
+        if (nameElement != null) {
+            JSExpression value = ((JSProperty) nameElement).getValue();
+
+            if (value instanceof JSLiteralExpression) {
+                String name = ((JSLiteralExpression) value).getStringValue();
+                if (name != null && !name.isEmpty()) {
+                    return name + ".";
+                }
+            }
+        }
+
+        return "";
     }
 
     public static Collection<String> getRoutesAsNames(PsiFile file) {
@@ -111,7 +150,7 @@ public class RoutingUtils {
         public void visitElement(@NotNull PsiElement element) {
             TypeScriptSingleType type = PsiTreeUtil.findChildOfType(element, TypeScriptSingleType.class);
 
-            if (type != null && type.getQualifiedTypeName() != null && type.getQualifiedTypeName().equals("RouteConfig")) {
+            if (VueRouterTsUtils.isRouteConfigType(type)) {
                 Collection<JSObjectLiteralExpression> jsObjects = PsiTreeUtil.findChildrenOfType(element, JSObjectLiteralExpression.class);
 
                 for (JSObjectLiteralExpression jsObject : jsObjects) {

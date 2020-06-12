@@ -11,6 +11,7 @@
     <ul>
     <li>Support indexing in path including route</li>
     <li>Support Goto route definition</li>
+    <li>Suggest name from parent for route</li>
     </ul>
     <h2>Guide</h2>
     <p>Plugin will index all name property of RouteConfig Object in file contain "route" and have prefix ".ts".</p>
@@ -19,8 +20,7 @@
 
     <change-notes><![CDATA[
     <ul>
-        <li>Fix suggest route name in redirect property</li>
-        <li>Fix wrong psiElement in GoTo Suggest</li>
+        <li>Sugget name from parent for route</li>
     </ul>
     <p></p>
     ]]>

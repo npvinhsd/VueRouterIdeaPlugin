@@ -42,10 +42,8 @@ public class RouteIndexExtension extends FileBasedIndexExtension<String, Void> {
     }
 
     private boolean isValidFileName(FileContent psiFile) {
-        if ("routes.ts".equals(psiFile.getFileName())) {
-            return true;
-        }
-        return StringUtils.containsIgnoreCase(psiFile.getFileName(), "route") && StringUtils.endsWith(psiFile.getFileName(), ".ts");
+        return StringUtils.containsIgnoreCase(psiFile.getFile().getCanonicalPath(), "route")
+                && StringUtils.endsWith(psiFile.getFileName(), ".ts");
     }
 
     @Override

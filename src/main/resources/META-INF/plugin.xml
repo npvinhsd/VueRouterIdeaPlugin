@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
-    <version>0.3</version>
+    <version>0.4.1</version>
     <vendor email="npvinh91@gmail.com" url="https://github.com/npvinhsd/VueRouterIdeaPlugin">Kapien</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,7 @@
     <br>
     <h2>Feature</h2>
     <ul>
-    <li>Autocomplete for VueRouter Typescript</li>
+    <li>Support indexing in path including route</li>
     </ul>
     <h2>Guide</h2>
     <p>Plugin will index all name property of RouteConfig Object in file contain "route" and have prefix ".ts".</p>
@@ -18,7 +18,7 @@
 
     <change-notes><![CDATA[
     <ul>
-        <li>Add GoTo Handler for VueRouter.</li>
+        <li>Fix show only current routes</li>
     </ul>
     <p></p>
     ]]>
@@ -32,8 +32,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <completion.contributor language="TypeScript" implementationClass="VueRouteCompletionContributor"/>
+        <completion.contributor order="first" language="TypeScript" implementationClass="VueRouteCompletionContributor"/>
         <fileBasedIndex implementation="RouteIndexExtension"/>
-        <gotoDeclarationHandler implementation="VueRouterGoToHandler"/>
+        <gotoDeclarationHandler order="first" implementation="VueRouterGoToHandler"/>
     </extensions>
 </idea-plugin>

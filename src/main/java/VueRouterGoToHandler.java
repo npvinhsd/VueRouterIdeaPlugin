@@ -7,7 +7,6 @@ import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.ArrayList;
 import java.util.Collection;
 
 public class VueRouterGoToHandler implements GotoDeclarationHandler {
@@ -16,7 +15,7 @@ public class VueRouterGoToHandler implements GotoDeclarationHandler {
     @Nullable
     @Override
     public PsiElement[] getGotoDeclarationTargets(PsiElement sourceElement, int offset, Editor editor) {
-        Collection<PsiElement> psiTargets = new ArrayList<>();
+        Collection<PsiElement> psiTargets;
 
         VueRouteProvider provider = new VueRouteProvider(sourceElement);
 

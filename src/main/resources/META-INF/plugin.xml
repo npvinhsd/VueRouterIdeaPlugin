@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
-    <version>0.4.1</version>
+    <version>0.4.2</version>
     <vendor email="npvinh91@gmail.com" url="https://github.com/npvinhsd/VueRouterIdeaPlugin">Kapien</vendor>
 
     <description><![CDATA[
@@ -10,6 +10,7 @@
     <h2>Feature</h2>
     <ul>
     <li>Support indexing in path including route</li>
+    <li>Support Goto route definition</li>
     </ul>
     <h2>Guide</h2>
     <p>Plugin will index all name property of RouteConfig Object in file contain "route" and have prefix ".ts".</p>
@@ -18,7 +19,8 @@
 
     <change-notes><![CDATA[
     <ul>
-        <li>Fix show only current routes</li>
+        <li>Fix suggest route name in redirect property</li>
+        <li>Fix wrong psiElement in GoTo Suggest</li>
     </ul>
     <p></p>
     ]]>

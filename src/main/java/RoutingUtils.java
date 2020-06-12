@@ -126,12 +126,19 @@ public class RoutingUtils {
 
         private void visitObject(JSObjectLiteralExpression jsObject) {
             JSProperty name = jsObject.findProperty("name");
+
+            PsiElement parent = name.getParent().getParent();
+
+            if (parent instanceof JSProperty && ((JSProperty) parent).getName().equals("redirect")) {
+                return;
+            }
+
             if (name != null && name.getValue() != null) {
                 try {
                     JSLiteralExpression literalExpression = (JSLiteralExpression) name.getValue();
                     String value = (String) literalExpression.getValue();
                     if (value != null) {
-                        this.visitor.visit(jsObject, value);
+                        this.visitor.visit(name, value);
                     }
                 } catch (Exception e) {
                     RouteLogger.LOG.error(e);

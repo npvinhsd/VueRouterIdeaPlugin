@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
-    <version>0.4.2</version>
+    <version>0.4.4</version>
     <vendor email="npvinh91@gmail.com" url="https://github.com/npvinhsd/VueRouterIdeaPlugin">Kapien</vendor>
 
     <description><![CDATA[

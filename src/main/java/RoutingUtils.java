@@ -166,6 +166,14 @@ public class RoutingUtils {
         private void visitObject(JSObjectLiteralExpression jsObject) {
             JSProperty name = jsObject.findProperty("name");
 
+            if (name == null) {
+                return;
+            }
+
+            if (name.getParent() != null) {
+                return;
+            }
+
             PsiElement parent = name.getParent().getParent();
 
             if (parent instanceof JSProperty && ((JSProperty) parent).getName().equals("redirect")) {

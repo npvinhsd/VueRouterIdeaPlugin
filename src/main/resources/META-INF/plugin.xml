@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/npvinhsd/VueRouterIdeaPlugin">
     <id>me.kapien.vue-router-helper</id>
     <name>Vue Router AutoCompletion</name>
-    <version>0.4.4</version>
+    <version>0.4.5</version>
     <vendor email="npvinh91@gmail.com" url="https://github.com/npvinhsd/VueRouterIdeaPlugin">Kapien</vendor>
 
     <description><![CDATA[
@@ -20,7 +20,7 @@
 
     <change-notes><![CDATA[
     <ul>
-        <li>Sugget name from parent for route</li>
+        <li>Fix wrong logic check null</li>
     </ul>
     <p></p>
     ]]>
@@ -34,7 +34,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <completion.contributor order="first" language="TypeScript" implementationClass="VueRouteCompletionContributor"/>
+        <completion.contributor order="first" language="TypeScript"
+                                implementationClass="VueRouteCompletionContributor"/>
         <fileBasedIndex implementation="RouteIndexExtension"/>
         <gotoDeclarationHandler order="first" implementation="VueRouterGoToHandler"/>
     </extensions>

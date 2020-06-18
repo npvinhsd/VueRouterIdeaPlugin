@@ -170,7 +170,7 @@ public class RoutingUtils {
                 return;
             }
 
-            if (name.getParent() != null) {
+            if (name.getParent() == null) {
                 return;
             }
 

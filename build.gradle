@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'me.kapien'
-version '0.4.5'
+version '0.4.6'
 
 repositories {
   mavenCentral()
@@ -20,7 +20,7 @@ apply plugin: 'org.jetbrains.intellij'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-  version '2020.1.1'
+  version System.getenv().getOrDefault('IDEA_VERSION', ideaVersion)
   type 'IU'
   plugins = ['JavaScriptLanguage', 'java']
 }
@@ -28,7 +28,7 @@ intellij {
 runIde {
   // Absolute path to the installed targetIDE to use as IDE Development Instance
   // Note the Contents directory must be added at the end of the path for macOS.
-  ideDirectory '/Users/npvinh/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-1/201.7223.93/WebStorm.app/Contents/'
+  ideDirectory '/Users/npvinh/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-1/202.6397.88/WebStorm.app/Contents/'
 }
 
 publishPlugin {

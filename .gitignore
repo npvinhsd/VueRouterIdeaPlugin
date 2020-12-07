@@ -9,3 +9,4 @@ gradle-app.setting
 !gradle-wrapper.jar
 java_*.hprof
 .idea/workspace.xml
+java_pid*

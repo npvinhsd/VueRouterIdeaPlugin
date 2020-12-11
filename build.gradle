@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'me.kapien'
-version '0.4.6'
+version '0.4.7'
 
 repositories {
   mavenCentral()
@@ -28,7 +28,7 @@ intellij {
 runIde {
   // Absolute path to the installed targetIDE to use as IDE Development Instance
   // Note the Contents directory must be added at the end of the path for macOS.
-  ideDirectory '/Users/npvinh/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-1/202.6397.88/WebStorm.app/Contents/'
+  ideDirectory '/Users/npvinh/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-1/203.5981.135/WebStorm 2020.3 EAP.app/Contents'
 }
 
 publishPlugin {
